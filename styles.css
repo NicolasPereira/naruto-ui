@@ -1,0 +1,52 @@
+:root{
+    --primary-orange: #FF8A38;
+    --primary-white: #F4F4F4;
+}
+
+@font-face {
+	font-family: 'narutoFont';
+	src: url('assets/fonts/go3v2.ttf'); 
+	src: 
+		local('Naruto Font'),
+		local('Naruto-Font'),
+		url('assets/fonts/go3v2.ttf') 
+		format('truetype');
+}
+
+* {
+    margin:0;
+    padding: 0;
+    outline:0;
+    list-style: none;
+}
+
+.home {
+    height: 100vh;
+    background-image: url('assets/imgs/bg-home.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.color-orange {
+    color: var(--primary-orange);
+}
+
+.color-white {
+    color: var(--primary-white);
+}
+
+.font-naruto {
+    font-family: 'narutoFont';
+}
+
+.title-1{
+    font-size: 92px;
+}
+
+.title-3{
+    font-size: 32px;
+}

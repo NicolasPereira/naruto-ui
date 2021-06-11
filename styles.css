@@ -20,9 +20,13 @@
     list-style: none;
 }
 
-.home{
+.home {
     height: 100vh;
     background-image: url('assets/imgs/bg-home.jpg');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 

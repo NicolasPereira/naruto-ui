@@ -83,7 +83,8 @@
 }
 
 .img-session-two-right {
-    right: 0;
+    left: 35px;
+    position: relative;
 }
 
 .text-left {

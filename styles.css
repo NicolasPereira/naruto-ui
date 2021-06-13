@@ -118,3 +118,14 @@
     justify-content: flex-start;
     padding-right: 100px;
 }
+
+.session-shinra-tensei {
+    height: 100vh;
+    background-image: url('assets/imgs/bg-shinra-tensei.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

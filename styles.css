@@ -4,6 +4,7 @@
     --primary-orange: #FF8A38;
     --primary-white: #F4F4F4;
     --primary-grey:#575757;
+    --background-white: #E5E5E5;
 }
 
 @font-face {
@@ -58,16 +59,20 @@
     font-size: 92px;
 }
 
+.title-2{
+    font-size: 72px;
+}
+
 .title-3{
     font-size: 32px;
 }
 
 .session-two {
     height: 100vh;
-    background-color: var(--primary-white);
+    background-color: var(--background-white);
     display: flex;
     align-items: center;
-    justify-content:space-around;
+    justify-content:flex-end;
 }
 
 .session-two-left {
@@ -75,6 +80,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
+    padding-right: 100px;
 }
 .session-two-right {
     display: flex;
@@ -82,12 +88,33 @@
     justify-content: flex-end;
 }
 
-.img-session-two-right {
-    left: 35px;
-    position: relative;
+.img-session {
+    width: 530px;
 }
-
-.text-left {
+.text-box {
     width: 500px;
     text-align: justify;
+}
+
+.session-three {
+    height: 100vh;
+    background-color: var(--background-white);
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+}
+
+.session-three-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.session-three-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-right: 100px;
 }

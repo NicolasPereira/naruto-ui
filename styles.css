@@ -73,6 +73,7 @@
     display: flex;
     align-items: center;
     justify-content:flex-end;
+    padding-bottom: 30px;
 }
 
 .session-two-left {
@@ -102,6 +103,7 @@
     display: flex;
     align-items: center;
     justify-content:flex-start;
+    padding-bottom: 30px;
 }
 
 .session-three-right {

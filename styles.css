@@ -59,6 +59,10 @@
     font-size: 92px;
 }
 
+.title-2{
+    font-size: 72px;
+}
+
 .title-3{
     font-size: 32px;
 }
@@ -84,10 +88,10 @@
     justify-content: flex-end;
 }
 
-.img-session-two-right {
-    width: 520px;
+.img-session {
+    width: 530px;
 }
-.text-box-right {
+.text-box {
     width: 500px;
     text-align: justify;
 }
@@ -113,13 +117,4 @@
     align-items: center;
     justify-content: flex-start;
     padding-right: 100px;
-}
-
-.text-box-left {
-    width: 500px;
-    text-align: justify;
-}
-
-.img-session-three-left {
-    width: 520px;
 }
